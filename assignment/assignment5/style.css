@@ -1,0 +1,31 @@
+.circle{
+    border-radius: 100%;
+    border: 10px solid red;
+    height: 500px;
+    width: 500px;
+    /* background-color: blue; */
+    position: absolute;
+    left: 35%; 
+    top: 10%;
+};
+
+/* .north{
+    border: 20px bold rebeccapurple;
+    background-color: rgb(21, 88, 88);
+    width: 500px;
+    height: 500px;
+};
+
+.east {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+};
+
+.south {
+
+};
+
+.west {
+
+}; */

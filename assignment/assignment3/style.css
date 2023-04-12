@@ -1,0 +1,74 @@
+#container{
+    /* border: 2px solid; */
+    display: grid;
+    /* where fr is the fraction of space, they are equal because fr is 1fr 1fr 1fr */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* where the first 10px is column gap and the second 10px is the row gap */
+    gap: 10px 10px; 
+    background-color: rgb(6, 6, 97);
+    border: 10px solid rgb(6, 6, 97);
+    
+}
+
+/* while box0 is selector for all the boxes */
+.box0{
+     /* border: 0px solid green; */
+     background-color: rgb(85, 85, 194);
+     text-align: center;
+     height: 300px;
+     border-radius: 20px;
+     
+}
+
+.circle{
+    border-radius: 50%;
+    /* width: 50px; */
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    /* align-items: center; */
+    position: relative;
+    top: 15%;
+    left: 35%;
+}
+
+#color1{
+    background-color: rgb(141, 32, 141);
+}
+
+#color2{
+    background-color: orangered;
+}
+
+#color3{
+    background-color: aqua;
+}
+
+.word {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    color: rgb(216, 209, 209);
+    top: 25%
+}
+
+.image {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 45%;
+    top: 5%
+}
+
+.word2 {
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 35%;
+    color: rgb(216, 209, 209);
+    text-align: left;
+    left: 10px;
+}
+
